@@ -4,6 +4,7 @@
 // e per i multipli di 5 stampi Buzz.
 //Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 
+
 //creazione dell'array che verrà stampato
 var array100 = new Array(100);
 

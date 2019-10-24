@@ -6,9 +6,27 @@
 
 }
 
-div {
+/* stile dell'header */
+.intro{
     width: 100%;
-    background-image: linear-gradient(to bottom right,#2133d3, #09bbed);
+    height: 150px;
+    background-image: linear-gradient(to bottom left, #3a3a56, #1a3f9b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.intro h1{
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+div {
+    padding-top: 150px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right,#6073a5, #fff);
 }
 
 ul{
@@ -33,7 +51,7 @@ ul li{
 }
 
 .buzz{
-    color: #fff;
+    color: #000;
 }
 
 .fizzbuzz{
