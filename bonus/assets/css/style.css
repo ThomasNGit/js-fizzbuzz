@@ -1,0 +1,12 @@
+/* regole generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div {
+    width: 100%;
+    background-image: linear-gradient(to bottom right,#2133d3, #09bbed);
+}
