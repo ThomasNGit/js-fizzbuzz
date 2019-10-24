@@ -8,15 +8,33 @@
 var array100 = new Array(100);
 
 //popolo l'array con 100 elementi
-for (var i = 0; i < 100; i++) {
+for (var i = 0; i < 101; i++) {
 
-    array100[i] = i + 1; 
+    array100[i] = i; 
 
 }
 
 //stampo l'array 
-for (var j = 0; j < array100.length; j++) {
+for (var j = 1; j < array100.length; j++) {
 
-    console.log(array100[j]); 
+    if (j % 15 === 0) {
 
+        console.log("FizzBuzz");
+        
+
+    } else if (j % 3 == 0) {
+
+        console.log("Fizz");
+        
+    } else if (j % 5 == 0) {
+
+        console.log("Buzz");
+        
+    } else {
+
+        console.log(array100[j]);
+        
+    }
+
+    
 }
