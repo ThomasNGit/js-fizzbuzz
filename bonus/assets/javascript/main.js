@@ -23,7 +23,7 @@ for (var j = 1; j < array100.length; j++) {
 
     console.log(array100[j]);
 
-    document.getElementById("numbers").innerHTML = numeroPrecedente + '<li class="normal">' + array100[j] + '</li>';
+    document.getElementById("numbers").innerHTML = numeroPrecedente + '<li class="normal">' + j + '</li>';
     
 
     if (j % 15 === 0) {
