@@ -22,26 +22,26 @@ for (var j = 1; j < array100.length; j++) {
 
     console.log(array100[j]);
 
-    document.getElementById("numbers").innerHTML = numeroPrecedente + "<li>" + array100[j] + "</li>";
+    document.getElementById("numbers").innerHTML = numeroPrecedente + '<li class="normal">' + array100[j] + '</li>';
     
 
     if (j % 15 === 0) {
 
 
-         document.getElementById("numbers").innerHTML = numeroPrecedente +  '<li>"FizzBuzz"</li>'
+         document.getElementById("numbers").innerHTML = numeroPrecedente +  '<li class="fizz">"FizzBuzz"</li>'
 
          console.log("FizzBuzz");
         
 
      } else if (j % 3 == 0) {
 
-         document.getElementById("numbers").innerHTML = numeroPrecedente +  '<li>"Fizz"</li>'
+         document.getElementById("numbers").innerHTML = numeroPrecedente +  '<li class="buzz">"Fizz"</li>'
 
          console.log("Fizz");
         
      } else if (j % 5 == 0) {
 
-         document.getElementById("numbers").innerHTML = numeroPrecedente +   '<li>"Buzz"</li>'
+         document.getElementById("numbers").innerHTML = numeroPrecedente +   '<li class="fizzbuzz">"Buzz"</li>'
 
          console.log("Buzz");
      }    

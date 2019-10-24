@@ -10,3 +10,32 @@ div {
     width: 100%;
     background-image: linear-gradient(to bottom right,#2133d3, #09bbed);
 }
+
+ul{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.normal {
+    color: yellow;
+}
+
+.fizz{
+    color: #99391e;
+}
+
+.buzz{
+    color: #fff;
+}
+
+.fizzbuzz{
+    color: #789108;
+}
